@@ -8,5 +8,11 @@ function printBadges(array) {
   }
 
 function tailsNeverFails() {
-
+  function tails () {
+    return Math.random() >= 0.5;
+  }
+   
+  while (tails()) {
+    console.log('And I ran... I ran so far away!');
+  }
 }
