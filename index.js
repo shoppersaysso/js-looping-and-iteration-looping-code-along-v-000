@@ -15,5 +15,5 @@ function tailsNeverFails() {
   while (tails()) {
     let count =;
   }
-  return `You got ${i} tails in a row!`
+  return `You got ${i} tails in a row!`;
 }
